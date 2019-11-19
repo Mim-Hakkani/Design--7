@@ -1,0 +1,178 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: phototime
+	Template URI: http://www.softtech-it.com
+	Description: photo related template
+	Author: Hasan Mahmud
+	Author URI: http://www.HN-Mahmud.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. side Bar 
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+font-family: 'Yellowtail', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+-----------------------------------------------------------------------------------*/
+
+/************** 1. Typography ************************/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Yellowtail&display=swap');
+
+body,p{
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+	color: #FFFDDF;
+	background-color: #0E0E0E;
+}
+
+/**************** 2. Header Area ********/
+.left-area{
+	background-color: #202020;
+	height: 900px;
+	padding:20px 25px;
+	position: fixed;
+	width: 300px;
+}
+.left-area h2{
+    font-family: 'Yellowtail', cursive;
+    color: #F39C11!important;
+    font-size: 47px;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+}
+.left-area p{
+	font-size: 13px;
+    margin-bottom: 25px;
+    text-align: center;
+    background-color: transparent;
+}
+.left-area ul{
+	margin-left: 15px;
+}
+.left-area ul li{}
+.left-area ul li a{
+	color: #FFFDDF;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 19px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.left-area ul li a:hover{
+	color: #F39C11!important;
+}
+.icon {
+	margin-left: 15px;
+    font-family: 'Oswald', sans-serif;
+
+}
+.icon h3{
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.icon p{
+	 margin-top: 10px;
+    /* float: left; */
+   
+}
+.social {
+	margin-bottom: 10px;
+}
+.social h3{
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+.social ul{}
+.social ul li{
+	display: inline-block;
+
+}
+.social ul li i{
+	margin-right: 10px;
+}
+footer {
+	overflow: hidden;
+	margin-top: 15px;
+}
+footer p{
+	margin-bottom: 0px!important;
+	text-align: left!important;
+	margin-left: 15px;
+
+}
+
+/******************************
+     
+     Right Area 
+
+ ******************************/
+
+
+.right-area{
+	background-image: url(images/background/bg1.jpg);
+	background-position: center center;
+	height: 900px;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 20px 30px;
+}
+.right-area h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #F39C11!important;
+    font-size: 56px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.right-area h3 {
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+}
+.p1{
+	    font-family: 'Open Sans', sans-serif;
+    background: none;
+    margin-left: 20px;
+}
+.p2{
+	    font-family: 'Oswald', sans-serif;
+    color: #F39C11!important;
+    font-size: 17px;
+    font-style: italic;
+    text-align: justify;
+    background: no-repeat;
+    margin-left: 20px;
+}
+.intro img{
+
+}
+blockquote p{
+	background:none;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+
+
+
+
+
+
+
+
